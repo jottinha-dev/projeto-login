@@ -44,13 +44,13 @@ section#Login {
 
 section#Login > div#imagem {
     display: block;
-    background:#f8fffb url(../Imagens/IMG_3237.jpg) no-repeat ;
+    background:#1D402D url(../Imagens/IMG_3237.jpg) no-repeat ;
     background-size: cover;
     background-position: left, bottom;
     height: 150px;
 }
 
-section#login > div#formulario {
+section#Login > div#formulario {
     display: block;
     padding: 10px;
 }
