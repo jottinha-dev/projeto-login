@@ -110,15 +110,17 @@ form >a.botao:hover{
 
 form >a.botao > span {
     font-size: 0.8em;
+    padding-left: 15px;
 }
 
 form >div.campo {
     display: block;
     margin: auto;
+    border: 2px solid #E4A030 ;
     text-align: center;
     background-color: #E4A030;
     width: 100%;
-    height: 40px;
+    height: 39.8px;
     margin-top: 10px;
     border-radius: 10px;
     padding: 2.5px 0px;
@@ -126,4 +128,20 @@ form >div.campo {
 
 div.campo > label {
     display: none;
+}
+
+div.campo > span {
+    color: white;
+    font-size: 2em;
+    width: 40px;
+}
+div.campo > input {
+    background-color: #f8d9a7;
+    border: none;
+    font-size: 0.9em;
+    width: calc(100% - 45px);
+    transform: translateY(-10.5px);
+    height: 113%;
+    border-radius: 10px;
+    padding: 5px;
 }
