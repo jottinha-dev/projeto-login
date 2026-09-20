@@ -48,6 +48,7 @@
     section#Login >div#formulario {
         float: left;
         width: 60%;
+        padding-top: 90px;
     }
 
     div#formulario > h1 {
@@ -56,6 +57,7 @@
 
     #formulario > p {
         font-size: 1em;
+        text-align: center;
     }
 
 }
